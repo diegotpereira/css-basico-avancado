@@ -1,0 +1,38 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 50px 200px 50px;
+}
+.box {
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+.topo {
+    background-color: #2771b2;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.sidebar {
+    background-color: #e32223;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.conteudo {
+    background-color: #f3e500;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.rodape {
+    background-color: #6d378b;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}

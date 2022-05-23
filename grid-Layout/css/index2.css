@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #f2f2f2;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.box {
+    background-color: #f06923;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+.box:nth-child(even) {
+    background-color: #34a6db;
+}
