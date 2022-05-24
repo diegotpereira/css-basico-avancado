@@ -1,0 +1,27 @@
+
+/* .container {
+    display: block;
+} */
+
+/* flex-direction */
+/* row (padrão): da esquerda para direita */
+/* row-reverse: inverso de row */
+/* column: de cima para baixo */
+/* column-reverse: inverso de column */
+
+/* .container {
+    display: flex;
+    flex-direction: row;
+} */
+
+/* flex-wrap */
+/* nowrap (padrão): todos os itens ficam em uma única linha */
+/* wrap: os itens que não cabem na linha são jogados para baixo */
+/* wrap-reverse: os itens que não cabem na linha são jogados para cima */
+#container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.item {
+    width: 40%;
+}
