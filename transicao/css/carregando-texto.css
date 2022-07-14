@@ -1,0 +1,27 @@
+h2 {
+    position: relative;
+    font-size: 5em;
+    color: rgb(199, 255, 110);
+    text-transform: uppercase;
+    border-bottom: 10px solid #ffffff;
+    line-height: initial;
+}
+h2::before {
+    content: attr(carregando-texto);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #b0a8e2;
+    overflow: hidden;
+    border-bottom: 10px solid #b0a8e2;
+    animation: carregando 5s linear infinite;
+}
+@keyframes carregando {
+    0% {
+        width: 0;
+      }
+      100% {
+        width: 100%;
+      }
+}

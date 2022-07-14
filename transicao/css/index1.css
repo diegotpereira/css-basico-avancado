@@ -1,0 +1,9 @@
+button {
+    color: white;
+    background: blue;
+    transition: backgrouund 1s;
+}
+button:hover,
+buton:focus {
+    background: red;
+}
